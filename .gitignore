@@ -1,0 +1,23 @@
+# ===== WorkBuddy 工作区内部数据（不提交） =====
+.workbuddy/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 环境变量（含 API Key，切勿提交） =====
+.env
+.env.*
+!.env.example
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+*.log
